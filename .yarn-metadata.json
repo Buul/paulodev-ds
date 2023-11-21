@@ -1,0 +1,72 @@
+{
+  "manifest": {
+    "name": "paulodev-ds",
+    "private": false,
+    "version": "1.0.11",
+    "type": "module",
+    "main": "dist/main.js",
+    "types": "dist/main.d.ts",
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc --p ./tsconfig-build.json && vite build --watch",
+      "lint": "eslint . --ext .ts,.tsx --max-warnings 0",
+      "preview": "vite preview",
+      "prepublishOnly": "npm run build",
+      "storybook": "storybook dev -p 6006",
+      "build-storybook": "storybook build"
+    },
+    "peerDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@storybook/addon-essentials": "^7.5.3",
+      "@storybook/addon-interactions": "^7.5.3",
+      "@storybook/addon-links": "^7.5.3",
+      "@storybook/addon-onboarding": "^1.0.8",
+      "@storybook/blocks": "^7.5.3",
+      "@storybook/react": "^7.5.3",
+      "@storybook/react-vite": "^7.5.3",
+      "@storybook/testing-library": "^0.2.2",
+      "@types/node": "^20.9.0",
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@typescript-eslint/eslint-plugin": "^6.11.0",
+      "@typescript-eslint/parser": "^6.11.0",
+      "@vitejs/plugin-react": "^4.0.3",
+      "eslint": "^8.53.0",
+      "eslint-config-prettier": "^9.0.0",
+      "eslint-plugin-import": "^2.29.0",
+      "eslint-plugin-jsx-a11y": "^6.8.0",
+      "eslint-plugin-react": "^7.33.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "eslint-plugin-storybook": "^0.6.15",
+      "glob": "^10.3.10",
+      "prettier": "^3.1.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "storybook": "^7.5.3",
+      "typescript": "^5.0.2",
+      "vite": "^4.4.5",
+      "vite-plugin-dts": "^3.6.3"
+    },
+    "_registry": "npm",
+    "_loc": "/Users/paulo_firmino/Library/Caches/Yarn/v6/npm-paulodev-ds-1.0.11-6524fa23-4922-47ea-a294-b5b0154b3d0b-1700573826476/node_modules/paulodev-ds/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# React + TypeScript + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh\n\n## Expanding the ESLint configuration\n\nIf you are developing a production application, we recommend updating the configuration to enable type aware lint rules:\n\n- Configure the top-level `parserOptions` property like this:\n\n```js\n   parserOptions: {\n    ecmaVersion: 'latest',\n    sourceType: 'module',\n    project: ['./tsconfig.json', './tsconfig.node.json'],\n    tsconfigRootDir: __dirname,\n   },\n```\n\n- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`\n- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`\n- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list\n",
+    "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules."
+  },
+  "artifacts": [],
+  "remote": {
+    "type": "copy",
+    "registry": "npm",
+    "hash": "932a3065-6298-4c55-b88a-be568abbc7e5-1700576511987",
+    "reference": "/Users/paulo_firmino/.nvm/versions/node/v20.9.0/lib/node_modules/paulodev-ds"
+  },
+  "registry": "npm",
+  "hash": "932a3065-6298-4c55-b88a-be568abbc7e5-1700576511987"
+}
