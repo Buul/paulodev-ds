@@ -17,17 +17,18 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "cm": "cz",
+    "precommit": "lint-staged",
     "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn precommit"
+    }
   },
   "peerDependencies": {
     "react": "^18.2.0",
