@@ -23,6 +23,9 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --fix"
+    ],
+    "lib/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
     ]
   },
   "husky": {

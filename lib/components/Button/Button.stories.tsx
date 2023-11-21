@@ -16,4 +16,4 @@ const Template = () => {
   return <Button />;
 };
 
-export const All = Template.bind({});
+export const Alll = Template.bind({});
