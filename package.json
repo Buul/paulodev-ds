@@ -75,10 +75,5 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }
